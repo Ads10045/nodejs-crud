@@ -1,0 +1,28 @@
+<rights>
+   <right name="EdocRelevesCompte">    
+       <allow> 
+           <sevices>
+               <service ia="IA411"/>
+           </sevices>
+           <pouvoirs>
+             <pouvoir iah="IA411" nop=""/> 
+           </pouvoirs>
+           
+       </allow>
+   </right>
+   <right name="Edocpromo">    
+      <true/>
+   </right> 
+   <right name="EdocFacture">    
+       <allow> 
+           <sevices>
+               <service ia="IA412"/>
+           </sevices>
+           <pouvoirs>
+             <pouvoir iah="IA412" nop=""/> 
+           </pouvoirs>
+           
+       </allow>
+   </right> 
+    
+</rights>

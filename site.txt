@@ -1,0 +1,12 @@
+https://shouts.dev/articles/nodejs-simple-crud-with-expressjs-and-mysql
+
+
+npm start
+
+# project URL:
+http://localhost:3000
+
+# books crud URL:
+http://localhost:3000/books
+
+http://localhost:5000/books

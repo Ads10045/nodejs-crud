@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pse xsi:noNamespaceSchemaLocation="pse.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                                                   
+                <family id="default">
+                                                
+                       <description> familly_desc_default  </description>
+                       <shortdescription> familly_short_desc_default </shortdescription>        
+                                     
+                        <section title="" id="S2" uri="/sommaire/Connector" displayMode="inside" internal="false" method="sommaire" />                                
+                                </application>
+                                
+                                <!-- Edoc -->                       
+                                <application id="Edoc" title="E-Documents" uri="/edoc" displayMode="inside" internal="true" method="EdocPromo">
+                               <xml>edoc.xml</xml>
+                                                <description>
+                                                                $edoc_desc
+                                                </description>
+                                                <shortdescription>
+                                                                $edoc_short_desc
+                                                </shortdescription>              
+                                                <section title="" id="Releves_de_comptes" uri="/edoc" displayMode="inside" internal="false" method="EdocRelevesCompte" />
+												<section title="" id="Factures" uri="/edoc" displayMode="inside" internal="false" method="EdocFacture" />                                           
+                                                <section title="" id="P1" uri="/edoc" displayMode="inside" internal="false"  visible="false" method="EdocPromo" />
+                                                <section title="" id="P2" uri="/edoc/promo.do" displayMode="inside" internal="false"  visible="false" method="EdocPromo" />                            
+                                </application>
+                                             
+
+                </family>                            
+                                                
+
+</pse>
