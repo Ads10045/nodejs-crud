@@ -14,7 +14,7 @@ const swaggerUi = require('swagger-ui-express');
 const logger = require('./logger');
 
 
-//const swaggerDocument = require('./swagger.json');   
+//const swaggerDocument = require('./swagger.json'); //*  
 
 
 const swaggerDefinition = {
